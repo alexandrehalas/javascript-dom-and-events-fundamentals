@@ -20,3 +20,15 @@ All of the properties, methods, and events available for manipulating and creati
 The DOM is built using multiple APIs that work together. The core DOM defines the entities describing any document and the objects within it. This is expanded upon as needed by other APIs that add new features and capabilities to the DOM. For example, the HTML DOM API adds support for representing HTML documents to the core DOM, and the SVG API adds support for representing SVG documents.
 
 Resumming: DOM (Document Object Model): structured representation of HTML documents. Allows Javascript to access HTML elements and styles to manipulate them.
+
+## Document: querySelector() method
+
+The Document method querySelector() returns the first Element within the document that matches the specified selector, or group of selectors. If no matches are found, null is returned.
+
+```
+querySelector(selectors)
+```
+
+### Parameters
+
+selectors: A string containing one or more selectors to match. This string must be a valid CSS selector string; if it isn't, a SyntaxError exception is thrown. See Locating DOM elements using selectors for more about selectors and how to manage them.
