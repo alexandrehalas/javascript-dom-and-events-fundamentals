@@ -32,3 +32,21 @@ querySelector(selectors)
 ### Parameters
 
 selectors: A string containing one or more selectors to match. This string must be a valid CSS selector string; if it isn't, a SyntaxError exception is thrown. See Locating DOM elements using selectors for more about selectors and how to manage them.
+
+## Events
+
+Events are things that happen in the system you are programming, which the system tells you about so your code can react to them.
+
+For example, if the user clicks a button on a webpage, you might want to react to that action by displaying an information box. In this article, we discuss some important concepts surrounding events, and look at how they work in browsers. This won't be an exhaustive study; just what you need to know at this stage.
+
+### What is an event?
+
+Events are things that happen in the system you are programming — the system produces (or "fires") a signal of some kind when an event occurs, and provides a mechanism by which an action can be automatically taken (that is, some code running) when the event occurs. Events are fired inside the browser window, and tend to be attached to a specific item that resides in it. This might be a single element, a set of elements, the HTML document loaded in the current tab, or the entire browser window. There are many different types of events that can occur.
+
+- The user selects, clicks, or hovers the cursor over a certain element.
+- The user chooses a key on the keyboard.
+- The user resizes or closes the browser window.
+- A web page finishes loading.
+- A form is submitted.
+- A video is played, paused, or ends.
+- An error occurs.
